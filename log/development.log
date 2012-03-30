@@ -130,3 +130,251 @@ Served asset /facebook_64.png - 304 Not Modified (53ms)
 
 Started GET "/assets/twitter_32.png" for 127.0.0.1 at 2012-03-30 06:52:27 +0530
 Served asset /twitter_32.png - 304 Not Modified (53ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-30 11:24:34 +0530
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_sign_in_form.html.erb (15.6ms)
+  Rendered pages/home.html.erb within layouts/application (249.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (15.6ms)
+Completed 200 OK in 1513ms (Views: 795.6ms | ActiveRecord: 78.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-30 11:24:36 +0530
+Served asset /application.css - 304 Not Modified (31ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-30 11:24:36 +0530
+Served asset /jquery.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-03-30 11:24:36 +0530
+Served asset /custom.css - 304 Not Modified (31ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-03-30 11:24:36 +0530
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2012-03-30 11:24:36 +0530
+Served asset /registrations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-30 11:24:36 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-03-30 11:24:36 +0530
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2012-03-30 11:24:36 +0530
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-30 11:24:36 +0530
+Served asset /application.js - 304 Not Modified (31ms)
+
+
+Started GET "/assets/twitter_64.png" for 127.0.0.1 at 2012-03-30 11:24:37 +0530
+Served asset /twitter_64.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter_32.png" for 127.0.0.1 at 2012-03-30 11:24:37 +0530
+Served asset /twitter_32.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/facebook_64.png" for 127.0.0.1 at 2012-03-30 11:24:37 +0530
+Served asset /facebook_64.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-30 11:24:43 +0530
+Processing by PagesController#home as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_sign_in_form.html.erb (0.0ms)
+  Rendered pages/home.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (15.6ms)
+Completed 200 OK in 94ms (Views: 93.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2012-03-30 11:24:43 +0530
+Served asset /registrations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-30 11:24:43 +0530
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-03-30 11:24:43 +0530
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-03-30 11:24:43 +0530
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-30 11:24:44 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-30 11:24:44 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-03-30 11:24:44 +0530
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2012-03-30 11:24:44 +0530
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-30 11:24:44 +0530
+Served asset /application.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/twitter_64.png" for 127.0.0.1 at 2012-03-30 11:24:44 +0530
+Served asset /twitter_64.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/facebook_64.png" for 127.0.0.1 at 2012-03-30 11:24:44 +0530
+Served asset /facebook_64.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter_32.png" for 127.0.0.1 at 2012-03-30 11:24:44 +0530
+Served asset /twitter_32.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-30 11:24:46 +0530
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_sign_in_form.html.erb (0.0ms)
+  Rendered pages/home.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 94ms (Views: 93.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-30 11:24:47 +0530
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-03-30 11:24:47 +0530
+Served asset /custom.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-03-30 11:24:47 +0530
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2012-03-30 11:24:47 +0530
+Served asset /registrations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-30 11:24:47 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-30 11:24:47 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-03-30 11:24:47 +0530
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2012-03-30 11:24:47 +0530
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-30 11:24:47 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter_64.png" for 127.0.0.1 at 2012-03-30 11:24:48 +0530
+Served asset /twitter_64.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter_32.png" for 127.0.0.1 at 2012-03-30 11:24:48 +0530
+Served asset /twitter_32.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/facebook_64.png" for 127.0.0.1 at 2012-03-30 11:24:48 +0530
+Served asset /facebook_64.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-30 11:24:53 +0530
+Processing by PagesController#home as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_sign_in_form.html.erb (0.0ms)
+  Rendered pages/home.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 94ms (Views: 93.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-30 11:24:53 +0530
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-03-30 11:24:53 +0530
+Served asset /custom.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-30 11:24:53 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2012-03-30 11:24:53 +0530
+Served asset /registrations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-03-30 11:24:53 +0530
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-30 11:24:53 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-03-30 11:24:53 +0530
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2012-03-30 11:24:53 +0530
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-30 11:24:53 +0530
+Served asset /application.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/twitter_64.png" for 127.0.0.1 at 2012-03-30 11:24:54 +0530
+Served asset /twitter_64.png - 304 Not Modified (6ms)
+
+
+Started GET "/assets/facebook_64.png" for 127.0.0.1 at 2012-03-30 11:24:54 +0530
+Served asset /facebook_64.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter_32.png" for 127.0.0.1 at 2012-03-30 11:24:54 +0530
+Served asset /twitter_32.png - 304 Not Modified (0ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to DeviseCreateUsers (20120320090949)
+Migrating to AddConfirmableFieldsToUsers (20120320132444)
+Migrating to RemoveConfirmedAtFieldFromUsers (20120320143016)
+Migrating to AddColumnConfirmedAtToUsers (20120320143457)
+Migrating to CreateAuthentications (20120320160647)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("authentications")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_users_on_reset_password_token')
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_users_on_email')[0m
